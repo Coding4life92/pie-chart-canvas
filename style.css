@@ -1,3 +1,7 @@
+:root {
+  --shadow: 0 3px 8px #050f31;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -28,7 +32,7 @@ h2 {
   position: relative;
   margin: .8rem 1.6rem;
   font-weight: 400;
-  text-shadow: 0 3px 8px #050f31;
+  text-shadow: var(--shadow);
 }
 
 h2 span {
@@ -38,7 +42,7 @@ h2 span {
   height: 1rem;
   width: 1.7rem;
   border: 1px solid #050f31;
-  box-shadow: 0 3px 8px #050f31;
+  box-shadow: var(--shadow);
 }
 
 span.apple {
@@ -59,6 +63,6 @@ span.orange {
 
 canvas {
   background-color: #f6f6f6;
-  box-shadow: 0 3px 8px #050f31;
+  box-shadow: var(--shadow);
   padding: 3rem;
 }
